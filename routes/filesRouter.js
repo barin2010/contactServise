@@ -10,7 +10,7 @@ const filesRouter = express.Router();
 filesRouter.post(
   "/",
   validateBody(createFilesSchema),
-  checkExtension,
+  //   checkExtension,
   createFile
 );
 
